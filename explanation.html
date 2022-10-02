@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>vote説明ページ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <style>
+        .content{
+            margin-bottom : 10px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100vw;
+            min-height: 100vh;
+        }
+        .main {
+            margin: 20px;
+            width: 60%;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            border-radius: 6px;
+        }
+        .form-body {
+            padding: 20px;
+        }
+        #reserveForm {
+            width: 100%;
+        }
+        .is-justify-content-center {
+            justify-content: center;
+        }
+        .is-flex-direction-column {
+            flex-direction: column;
+        }
+        .form-title .hero-body {
+            padding: 1.4rem 0.8rem;
+        }
+        .form-title .title {
+            font-size: 1.2rem;
+        }
+        .form-body .field:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+        .is-flex-wrap-nowrap {
+            flex-wrap: wrap;
+        }
+        .calendar-control>div {
+            width: 100%;
+        }
+        @media screen and (max-width: 480px) {
+            body {
+                min-height: 100%;
+            }
+            .main {
+                width: 100%;
+            }
+            .form-body .form-text {
+                display: none;
+            }
+        }table {
+            width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: solid 1px black;
+  /*実線 1px 黒*/
+}
+th {
+  color: #FF9800;/*文字色*/
+  background: #fff5e5;/*背景色*/	
+}
+        .p1 {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+  }
+        .center{
+            text-align:center;
+        }
+    </style>
+</head>
+    <body class="is-flex is-justify-content-center has-background-light">
+    <div class="main has-background-white is-flex-direction-column">
+        <div class="conteiner form-title">
+            <section class="hero is-info">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                            意見書
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="registerContent" class="conteiner form-body">
+            <form id="reserveForm">
+                <div class="field">
+                    <div class="content">
+                        <p>このアプリはGoogle Apps Scriptを使用して岡山県立学校内で作成されたものです。</p>
+                    </div>
+                    <div class="content">
+                        <h1>目的</h1>
+                        <p>玉島高校生徒会では、デジタル意見箱によって、匿名での意見を募集しています。<p>
+                      <a href="/reply">このページ</a>では、その意見に生徒会執行部が回答をし、<p>
+                            意見と回答を公開しています。名前は公開されませんのでご安心ください。<p>
+                            </p>
+                    </div>
+                　　<div class="content">
+                        <h1>自分の意見が表示されない</h1>
+                        <p>生徒会に寄せられている意見は膨大です。それらの意見をすべてこのページに書くとページが長大になります。<p>
+                    そのため、一定期間が経過すると、トップページに表示されなくなります。<p>
+                    意見箱に自分の名前を記入された方は、検索欄で自分の名前を入力すれば、期間を過ぎても自分の意見と回答を確認できます。<p>
+                    自分の名前を入力されなかった方は、送信時のメールアドレスにより同様に検索が可能です。<p>
+                    いずれの場合も、検索結果に自分の名前、メールアドレスは表示されません。</p>
+                    </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div><div>
+    </div>
+</body>
+Copyright © 2022 Gobousei All Rights Reserved.
